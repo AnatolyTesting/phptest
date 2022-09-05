@@ -5,4 +5,6 @@ echo TEST1;
 
 
 asdasd();
+
+asssss();
 ?>
