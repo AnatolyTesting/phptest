@@ -37,7 +37,7 @@ router.get('/greet-template', (req, res) => {
 //     name = req.query.name;
 //     name = req.query.name;
 //     name = req.query.name;
-//   res.render('index', { user_name: name });
+    res.render('index', { user_name: name });
 })
 
 module.exports = router
@@ -139,6 +139,7 @@ app.get('/xss', function (req, res) {
     res.write('Response</br>' + html);
 });
 app.listen(8000);
+
 
 
 
